@@ -1,0 +1,50 @@
+/* ---Fonts--- */
+
+
+/* ---Base Styles--- */
+ * {
+     box-sizing: border-box;
+ }
+
+ html {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+/* body {
+ } */
+
+ img {
+     width: 100%;   
+ }
+
+ header {
+    padding: 20vh 1rem;
+    margin: -1rem -1rem 1rem;
+    /* background-image: url("../images/coffeebeans.jpg"); */
+    background-color: rgb(156, 241, 233);
+    color: white;
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: cover;
+ }
+
+ h1 {
+     text-shadow: -4px 4px 10px rgb(3, 3, 3);
+     text-align: center;
+     font-size: 2rem;
+     color: white;
+ }
+
+ .card {
+     padding: 3rem;
+     text-align: center;
+     /* display: inline-block; */
+     background-color: rgb(209, 209, 168);
+ }
+
+ footer {
+     margin-bottom: auto;
+     text-align: center;
+     background-color: rgb(214, 211, 211);
+     position: sticky;
+ }
